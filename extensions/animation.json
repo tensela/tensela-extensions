@@ -1,0 +1,24 @@
+{
+  "id": "animation",
+  "name": {
+    "en": "Animation",
+    "es": "Animación"
+  },
+  "description": {
+    "en": "Exports what a slider does as it moves, as a GIF or a series of PNG images: the tower turning, the facade opening. For presentations and social networks.",
+    "es": "Exporta lo que hace un deslizador al moverse, como un GIF o una serie de imágenes PNG: la torre girando, la fachada abriéndose. Para presentaciones y redes."
+  },
+  "version": "1.0.0",
+  "author": "Tensela",
+  "licence": "GPL-3.0-or-later",
+  "tensela": "0.9",
+  "permissions": {},
+  "website": "https://tensela.com/extensions/animation/",
+  "issues": "https://github.com/tensela/tensela/issues",
+  "source": "https://github.com/tensela/tensela/tree/main/src/tensela/bundled_extensions/animation",
+  "download": "",
+  "sha256": "",
+  "comes_with_tensela": true,
+  "added": "2026-11-24",
+  "updated": "2026-11-24"
+}

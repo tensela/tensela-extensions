@@ -1,0 +1,29 @@
+{
+  "id": "ai-connection",
+  "name": {
+    "en": "AI connection",
+    "es": "Conexión con IA"
+  },
+  "description": {
+    "en": "Lets an AI program of your choice look at the open project and change it (each step undone with Ctrl+Z): through a local connection, inside your computer. Tensela itself still does not connect to anything.",
+    "es": "Deja que un programa de IA que tú elijas mire el proyecto abierto y lo cambie (cada paso se deshace con Ctrl+Z): por una conexión local, dentro de tu computadora. Tensela misma sigue sin conectarse a nada."
+  },
+  "version": "0.2.0",
+  "author": "Tensela",
+  "licence": "GPL-3.0-or-later",
+  "tensela": "0.9",
+  "permissions": {
+    "local": {
+      "en": "So that the AI program you set up talks with the open window: through a file of your user (a local socket) that only you can open. Nothing goes to the internet and no port is opened.",
+      "es": "Para que el programa de IA que configures hable con la ventana abierta: por un archivo de tu usuario (un socket local) que solo tú puedes abrir. Nada sale a internet y no se abre ningún puerto."
+    }
+  },
+  "website": "https://tensela.com/extensions/ai-connection/",
+  "issues": "https://github.com/tensela/tensela/issues",
+  "source": "https://github.com/tensela/tensela/tree/main/extensions/ai-connection",
+  "download": "https://github.com/tensela/tensela/releases/download/ai-connection-v0.2.0/ai-connection-0.2.0.zip",
+  "sha256": "369758d841b0d52134dd07c7ce4eadf0f1d90f556fc9b111b42b828a2b187760",
+  "comes_with_tensela": false,
+  "added": "2026-11-24",
+  "updated": "2026-11-25"
+}

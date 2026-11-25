@@ -1,0 +1,13 @@
+# Each pull request: its files are right, each .zip is the one its fingerprint says and its card agrees. Then a person
+# reviews it (public code, permissions that make sense, nothing hidden) before merging.
+name: check
+on: [pull_request, push]
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - run: python tools/catalogue.py check --download
